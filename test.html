@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> <!-- Librairie Jquery necessaire -->
+		<script src="js/showScroll.js"></script> <!-- Fichier necessaire aux animations -->
+		<title> ShowScroll DEMO</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body style="text-align:center">
+		<header style="margin-bottom:0">
+			<h1 style="font-size:50px"class="showScroll fade">ShowScroll</h1>
+			<h2 style="font-size:30px;color:grey;">Easy Scroll Animation</h2>
+		</header>
+
+		<div style="height:50vh;display: flex;align-items: center;justify-content: center;">
+			<h2> Scrollez lentement pour essayer :) </h2>
+		</div>
+
+		<h2> Les différentes animation </h2>
+		<div class="showScroll showScrollContainer">
+			<h3>Arrivée des éléments en fondu </h3>
+			<img class="showScrollElement fade delay-100" src="img/test.png"/>
+			<img class="showScrollElement fade delay-100" src="img/test.png"/>
+			<img class="showScrollElement fade delay-100" src="img/test.png"/>
+			<img class="showScrollElement fade delay-100" src="img/test.png"/>
+		</div>
+		<br/><br/><br/><br/>
+		<div class="showScroll showScrollContainer">
+			<h3> Arrivée des éléments d'un côté </h3>
+			<img class="showScrollElement leftToRight show-3 delay-500" src="img/test.png"/>
+			<img class="showScrollElement leftToRight show-1 " src="img/test.png"/>
+			<img class="showScrollElement rightToLeft show-2 " src="img/test.png"/>
+			<img class="showScrollElement rightToLeft show-4" src="img/test.png"/>
+		</div>
+		<br/><br/><br/><br/>
+		<div class="showScroll showScrollContainer">
+			<h3> Arrivée des éléments en rotation </h3>
+			<img class="showScrollElement rotation tour-3 show-3 delay-500" src="img/test.png"/>
+			<img class="showScrollElement rotation tour--3 show-1 " src="img/test.png"/>
+			<img class="showScrollElement rotation tour--3 show-2 " src="img/test.png"/>
+			<img class="showScrollElement rotation tour-3 show-4" src="img/test.png"/>
+		</div>
+		<br/><br/><br/><br/>
+		<div class="showScroll showScrollContainer">
+			<h3> Arrivée des éléments en taille </h3>
+			<img class="showScrollElement scale scaleStart-0 scaleEnd-1 show-3 delay-500" src="img/test.png"/>
+			<img class="showScrollElement scale scaleStart-2 scaleEnd-1 show-1 " src="img/test.png"/>
+			<img class="showScrollElement scale scaleStart-2 scaleEnd-1 show-2 " src="img/test.png"/>
+			<img class="showScrollElement scale scaleStart-0 scaleEnd-1 show-4" src="img/test.png"/>
+		</div>
+		<br/><br/><br/><br/>
+		<div class="showScroll showScrollContainer">
+			<h3> En mélangeant un peu tout... </h3>
+			<img class="showScrollElement rotation leftToRight fade scale scaleStart-0 scaleEnd-1 tour-3 show-3 delay-500" src="img/test.png"/>
+			<img class="showScrollElement rotation leftToRight fade scale scaleStart-2 scaleEnd-1 tour--3 show-1 " src="img/test.png"/>
+			<img class="showScrollElement rotation rightToLeft fade scale scaleStart-2 scaleEnd-1 tour--3 show-2 " src="img/test.png"/>
+			<img class="showScrollElement rotation rightToLeft fade scale scaleStart-0 scaleEnd-1 tour-3 show-4" src="img/test.png"/>
+		</div>
+
+		<br/><br/><br/><br/>
+		<h2> Les différents déclenchements possibles </h2>
+		<h3> Arrivée du haut de l'objet en haut de l'écran </h3>
+		<img class="showScroll fade limit-0 anchor-top" src="img/test.png"/>
+
+		<br/><br/><br/><br/>
+		<h3> Arrivée du milieu de l'objet en haut de l'écran </h3>
+		<img class="showScroll fade limit-0 anchor-center" src="img/test.png"/>
+
+		<br/><br/><br/><br/>
+		<h3> Arrivée du bas de l'objet en haut de l'écran <br/>(en gros vous ne le verrez pas arriver sauf si vous remontez ensuite ^^)</h3>
+		<img class="showScroll fade limit-0 anchor-bottom" src="img/test.png"/>
+
+		<br/><br/><br/><br/>
+		<h3> Arrivée du haut de l'objet au milieu de l'écran </h3>
+		<img class="showScroll fade limit-centerWindow anchor-top" src="img/test.png"/>
+
+		<br/><br/><br/><br/>
+		<h3> Arrivée du milieu de l'objet au milieu de l'écran </h3>
+		<img class="showScroll fade limit-centerWindow anchor-center" src="img/test.png"/>
+
+		<br/><br/><br/><br/>
+		<h3> Arrivée du bas de l'objet au milieu de l'écran </h3>
+		<img class="showScroll fade limit-centerWindow anchor-bottom" src="img/test.png"/>
+
+		<br/><br/><br/><br/>
+		<h3> Arrivée du haut de l'objet au bas de l'écran <br/> (en gros vous ne le verrez pas arriver il sera deja là -ou aura commencé son arrivée)</h3>
+		<img class="showScroll fade limit-bottomWindow anchor-top" src="img/test.png"/>
+
+		<br/><br/><br/><br/>
+		<h3> Arrivée du milieu de l'objet au bas de l'écran </h3>
+		<img class="showScroll fade limit-bottomWindow anchor-center" src="img/test.png"/>
+
+		<br/><br/><br/><br/>
+		<h3> Arrivée du bas de l'objet au bas de l'écran </h3>
+		<img class="showScroll fade limit-bottomWindow anchor-bottom" src="img/test.png"/>
+
+		<div style="height:100vh">
+		</div>
+	</body>
+</html>
