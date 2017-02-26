@@ -17,10 +17,10 @@ Gérer les apparitions au scroll très simplement
 
 <h4>Apparition de plusieurs éléments pour l'atteinte du scroll d'un élément parent</h4>
 
-`<div class="showScrollContainer">
-    <div class="showScrollElement [classe de l animation] [classes optionnelles] [delay] [ordre]"></div>
-    <div class="showScrollElement [classe de l animation] [classes optionnelles] [delay] [ordre]"></div>
-</div>`
+`<div class="showScrollContainer">`
+   `<div class="showScrollElement [classe de l animation] [classes optionnelles] [delay] [ordre]"></div>`
+   `<div class="showScrollElement [classe de l animation] [classes optionnelles] [delay] [ordre]"></div>`
+`</div>`
 
 - delay : si un délai est voulu avant l'apparition d'un élément (et donc entre chaque élément)
     - S'écrit : "delay-" + [valeur de type numérique (ms)] 
