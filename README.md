@@ -35,8 +35,7 @@ Gérer les apparitions au scroll très simplement
        - ne pas sauter de position (ex. passer de show-1 à show-3 sans qu'aucun élément show-2 existe)
 
  
- 
- <h2> Paramètres par défaut </h2>
+<h2> Paramètres par défaut (modifiables dans le fichier js) </h2>
  
 <h3> delay </h3>
 
