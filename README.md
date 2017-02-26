@@ -118,12 +118,21 @@ Gérer les apparitions au scroll très simplement
       - "fadeStart-"+[valeur]
       - "fadeEnd-"+[valeur]
       
+      <h4> Exemple </h4>
+      
+      `<div class="showScroll fade fadeStart-0 fadeEnd-1"></div>`
+      
    <h3> Je veux que mon élément apparaisse en zoom/dézoom </h3>
    
    - classe obligatoire : "scale"
    - classes optionnelles : 
       - "scaleStart-"+[valeur]
       - "scaleEnd-"+[valeur]
+      
+      
+   <h4> Exemple </h4>
+      
+      `<div class="showScroll scale scaleStart-0 scaleEnd-1"></div>`
       
   <h3> Je veux que mon élément apparaisse de droite à gauche </h3>
    
@@ -132,6 +141,11 @@ Gérer les apparitions au scroll très simplement
       - "hide-"+[valeur]
       - "times"+[valeur] (si "hide-self")
       
+      
+   <h4> Exemple </h4>
+      
+      `<div class="showScroll rightToLeft hide-self times-2"></div>`
+      
    <h3> Je veux que mon élément apparaisse de gauche à droite </h3>
    
    - classe obligatoire : "leftToRight"
@@ -139,9 +153,42 @@ Gérer les apparitions au scroll très simplement
       - "hide-"+[valeur]
       - "times"+[valeur] (si "hide-self")
       
+   <h4> Exemple </h4>
+      
+      `<div class="showScroll leftToRight hide-window"></div>`
+      
    <h3> Je veux que mon élément apparaisse en tournant </h3>
    
    - classe obligatoire : "rotation"
    - classes optionnelles : 
       - "tour-"+[valeur]
+      
+      
+    <h4> Exemple </h4>
+      
+      `<div class="showScroll rotation round-5"></div>`
+      
+      
+   <h3> Vous voulez tout ? C'est possible (si vous n'essayez pas de le faire venir de la gauche et la droite en même temps... </h3>
+      
+    <h4> Exemple </h4>
+      
+      `<div class="showScroll rotation scale leftToRight fade [+ tous les parametres optionnels qui vont avec]"></div>`
 
+<h2> Compatibilité avec votre code CSS </h2>
+
+Si vous appliquez des propriétés CSS comme "position", "transform","opacity", ... à un élément et que vous voulez éviter que cela rentre en conflit avec les animations, procédez comme suit : 
+
+<h3> Votre code de départ </h3>
+
+     `<div>`
+            `Votre élément`
+     `</div>`
+     
+<h3> Votre code adapté pour les animations </h3>
+
+     `<div>`
+     `<div class="showScroll">`
+            `Votre élément`
+     `</div>`
+     `</div>`
