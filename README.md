@@ -181,14 +181,14 @@ Si vous appliquez des propriétés CSS comme "position", "transform","opacity", 
 
 <h3> Votre code de départ </h3>
 
-     `<div>`
-            `Votre élément`
-     `</div>`
+     <div>
+            Votre élément
+     </div>
      
 <h3> Votre code adapté pour les animations </h3>
 
-     `<div>`
-     `<div class="showScroll">`
-            `Votre élément`
-     `</div>`
-     `</div>`
+     <div>
+     <div class="showScroll">
+            Votre élément
+     </div>
+     </div>
