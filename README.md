@@ -10,5 +10,13 @@ Gérer les apparitions au scroll très simplement
  
 <h3> delay </h3>
 
-- Délai avant la suppression d'un élément en ms
-- Valeurs possibles : valeurs numériques uniquement 
+- <strong>Définition :</strong> Délai avant la suppression d'un élément en ms
+- <strong>Valeurs possibles :</strong> valeurs numériques uniquement 
+
+<h3> hide </h3>
+
+- <strong>Définition :</strong> Où est caché un élément avant d'apparaître
+- <strong>valeurs possibles :</strong> 
+   - "window" : sort de l'écran
+   - "self" : est décalé de lui-même X fois
+   - Valeur numérique en px (exemple "200")
