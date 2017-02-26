@@ -19,9 +19,9 @@ Gérer les apparitions au scroll très simplement
 
 `<div class="showScrollContainer">`
  <br/>
-   `<div class="showScrollElement [classe de l animation] [classes optionnelles] [delay] [ordre]"></div>`
+   &bnsp;&bnsp;&bnsp;`<div class="showScrollElement [classe de l animation] [classes optionnelles] [delay] [ordre]"></div>`
    <br/>
-   `<div class="showScrollElement [classe de l animation] [classes optionnelles] [delay] [ordre]"></div>`
+   &bnsp;&bnsp;&bnsp;`<div class="showScrollElement [classe de l animation] [classes optionnelles] [delay] [ordre]"></div>`
    <br/>
 `</div>`
 
