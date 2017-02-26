@@ -20,3 +20,36 @@ Gérer les apparitions au scroll très simplement
    - "window" : sort de l'écran
    - "self" : est décalé de lui-même X fois
    - Valeur numérique en px (exemple "200")
+
+<h3> times </h3>
+
+- <strong>Définition :</strong> Si hide="self", nombre de fois que l'élément sera décalé de lui-même
+- <strong>Valeurs possibles :</strong> valeurs numériques uniquement 
+
+<h3> scaleStart </h3>
+
+- <strong>Définition :</strong> Taille initiale d'un élément avant son apparition
+- <strong>Valeurs possibles :</strong> valeurs numériques uniquement 
+
+<h3> scaleEnd </h3>
+
+- <strong>Définition :</strong> Taille finale d'un élément après son apparition
+- <strong>Valeurs possibles :</strong> valeurs numériques uniquement 
+
+<h3> fadeStart </h3>
+
+- <strong>Définition :</strong> Opacité initiale d'un élément avant son apparition
+- <strong>Valeurs possibles :</strong> Valeurs numériques entre 0 et 1
+
+<h3> fadeEnd </h3>
+
+- <strong>Définition :</strong> Opacité finale d'un élément avant son apparition
+- <strong>Valeurs possibles :</strong> Valeurs numériques entre 0 et 1
+
+<h3> tour </h3>
+
+- <strong>Définition :</strong> Nombre de tours que fera un élément en apparaissant en mode "rotation"
+- <strong>Valeurs possibles :</strong> Valeurs numériques
+- <strong>Sens :</strong>
+    - Nombre positif : rotation antihoraire
+    - Nombre négatif : rotation horaire
