@@ -6,6 +6,7 @@ Gérer les apparitions au scroll très simplement
 `<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> <!-- Librairie Jquery necessaire -->
  <script src="js/showScroll.js"></script> <!-- Fichier necessaire aux animations -->`
  
+ <a href="http://easyscript.fr/gost/">Démo en ligne</a>
 
 <h2> Syntaxe globale </h2>
 
